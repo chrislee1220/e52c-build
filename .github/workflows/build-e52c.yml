@@ -13,7 +13,7 @@ jobs:
       - name: 释放磁盘空间
         uses: easimon/maximize-build-space@master
         with:
-          root-reserve-mb: 2048
+          root-reserve-mb: 10240
           swap-size-mb: 4096
           remove-dotnet: 'true'
           remove-android: 'true'
@@ -132,3 +132,4 @@ jobs:
         with:
           name: immortalwrt-e52c-unlocked-v2
           path: /mnt/build/output/
+
