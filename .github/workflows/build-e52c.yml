@@ -132,4 +132,3 @@ jobs:
         with:
           name: immortalwrt-e52c-unlocked-v2
           path: /mnt/build/output/
-
